@@ -1,0 +1,12 @@
+awswrangler==2.13.0
+certifi==2021.10.8
+click==8.0.3
+colorama==0.4.4
+Flask==2.0.3
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+pg8000==1.22.1
+requests-aws4auth==1.1.1
+Werkzeug==2.0.3
+wincertstore==0.2
