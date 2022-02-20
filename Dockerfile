@@ -5,9 +5,14 @@ FROM python:3.8
 WORKDIR /simple_calculator
 
 # Install Dependency
-COPY .  /simple_calculator
+COPY requirements.txt /simple_calculator/
 RUN pip install -r ./requirements.txt
 
+# Copy local folder into the container
+COPY calculator_app.py /simple_calculator/
+COPY calculator.py /simple_calculator/
+COPY test_calculator.py /simple_calculator/
+COPY templates/index.html /app/templates/index.html
 
 # Set "python" as the entry point
 ENTRYPOINT ["python"]
