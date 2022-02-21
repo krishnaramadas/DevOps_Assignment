@@ -23,7 +23,7 @@ pipeline
             steps
             {
                 sh 'echo "Testing stage"'
-                sh 'python UnitTesting.py'
+                sh 'python test_calculator.py'
             }
         }
     }
