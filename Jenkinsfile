@@ -1,12 +1,5 @@
-pipeline
-{
-    agent
-    {
-        docker
-        {
-            image 'python:3.8-slim-buster'
-        }
-    }
+pipeline {
+    agent any
 
         stages {
         stage('build') {
