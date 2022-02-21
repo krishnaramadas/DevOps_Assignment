@@ -3,30 +3,16 @@
 
 # In[66]:
 
+#defining a function to add numbers
 def add(a,b):
-    if isinstance(a, float):
-        return None
-    elif isinstance(b, float):
-        return None
-    else:
-        return a+b
+        return int(a)+int(b)
 
-    
+#defining a function to subtract numbers    
 def subtract(a,b):
-    if isinstance(a, float):
-        return None
-    elif isinstance(b, float):
-        return None
-    else:
-        return a-b
+        return int(a)-int(b)
     
-    
+#defining a function to multiply numbers   
 def multiply(a,b):
-    if isinstance(a, float):
-        return None
-    elif isinstance(b, float):
-        return None
-    else:
-        return a*b
+        return int(a)*int(b)
             
 
