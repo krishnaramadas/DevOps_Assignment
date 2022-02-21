@@ -8,22 +8,15 @@ pipeline
         }
     }
 
-    stages
-    {
-        stage('Build')
-        {
-            steps
-            {
-                sh 'python --version'
+        stages {
+        stage('build') {
+            steps {
+                sh 'calculator.py'
             }
         }
-
-        stage('Testing')
-        {
-            steps
-            {
-                sh 'echo "Testing stage"'
-                sh 'python test_calculator.py'
+        stage('test') {
+            steps {
+                sh 'test_calculator.py'
             }
         }
     }
