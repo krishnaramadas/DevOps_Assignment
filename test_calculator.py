@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 #importing the defined calculator
 import calculator as cal
 #importing the unit test library
@@ -23,9 +19,3 @@ class test_Calculator(unittest.TestCase):
         
 if __name__ == "__main__":
     unittest.main()
-
-
-
-
-
-
